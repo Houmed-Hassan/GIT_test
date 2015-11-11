@@ -26,3 +26,9 @@ modification d'un projet
 	
 
 	user$ git  log // pour consulter l'historique du commit
+	user$ git log -p  // detail de ligne qui on etait retirées et ajoutées dans chaque commit
+
+
+	user$ git commit --amend // pour modifier les dernier msg de commit 
+
+	user$ git head  HEAD  commande_git_apprentissage.txt // annuler le dernier commit 

@@ -32,3 +32,5 @@ modification d'un projet
 	user$ git commit --amend // pour modifier les dernier msg de commit 
 
 	user$ git head  HEAD  commande_git_apprentissage.txt // annuler le dernier commit 
+
+	user$ git checkout // restaurer le commit du dernier version

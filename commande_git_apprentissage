@@ -1,0 +1,25 @@
+Commande git apprentissage
+
+
+Initialiser un projet 
+
+	user$ cd mon_repository
+	user$ git init // permet de creer deux zones, zone muable et zone immuable, creer osi un depot vide 
+	user$  git add . // place les fichiers dans la zone muable "stage", il faut pas oublier le point (.)
+	user$ git commit // place les fichier dans la zone immuable.
+   // attention : pour faire un commit il faudra ajouter le fichier gitconfig, qui est un fichier caché dans votre repository.
+   // pour cela il faudra faire 
+
+
+	[user]
+		name = votre nom_utilisateur de github
+		email = votre email utilisateur de github
+
+ 
+ // ou faire la commande git config --global user.name "votre nom", git config -- global user.email "votre email@free.com"
+
+
+modification d'un projet
+	
+	user$ git status // indiquer le modification recent 
+	user$ git diff // permet de voir le modification recent  apporter sur le projet 

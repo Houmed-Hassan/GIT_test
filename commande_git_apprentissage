@@ -23,3 +23,6 @@ modification d'un projet
 	
 	user$ git status // indiquer le modification recent 
 	user$ git diff // permet de voir le modification recent  apporter sur le projet 
+	
+
+	user$ git  log // pour consulter l'historique du commit
